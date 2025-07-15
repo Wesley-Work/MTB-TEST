@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: WesleyWork/MTB-release-action@develop
+      - uses: Wesley-Work/MTB-release-action@develop
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          repoName: 'MTB-TEST'
